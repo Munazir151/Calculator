@@ -62,4 +62,8 @@ form input.equal{
     form .display input {
         font-size: 35px;
     }
+        form input.equal {
+        width: calc(100% - 20px); /* Ensure the equal button spans the full width */
+    }
+
 }
